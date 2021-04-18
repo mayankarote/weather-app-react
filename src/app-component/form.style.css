@@ -1,0 +1,28 @@
+form {
+  margin-top: 3rem;
+}
+
+form input[name="city"],
+form input[name="country"] {
+  background-color: transparent;
+  color: red;
+  border: none;
+  border-bottom: 2px solid red;
+  border-radius: 0;
+}
+
+form input:focus {
+  background-color: crimson;
+  box-shadow: none !important;
+}
+
+button {
+  background-color: rgb(26, 22, 24);
+  color: red;
+  font-size: 20px;
+  padding: 8px 50px;
+  border-radius: 8px;
+  margin: 5px 0px;
+  cursor: pointer;
+  outline: red;
+}
